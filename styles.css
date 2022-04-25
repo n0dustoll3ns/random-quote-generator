@@ -1,0 +1,13 @@
+body{background-color: #06bcc1;}
+
+.container{
+  border: 1px solid black;
+
+  width: 95%;
+  height: 100vh;
+  display: flex;
+}
+
+.quotes{
+  
+}
