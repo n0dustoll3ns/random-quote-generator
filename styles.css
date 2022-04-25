@@ -1,6 +1,8 @@
-body{background-color: #06bcc1;}
+body {
+  background-color: #06bcc1;
+}
 
-.container{
+.container {
   border: 1px solid black;
 
   width: 95%;
@@ -8,6 +10,23 @@ body{background-color: #06bcc1;}
   display: flex;
 }
 
-.quotes{
-  
+section {
+  border: 1px solid black;
+  width: 900px;
+  height: 450px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: gray;
+  background-color: #f4edea;
+  border: 10px solid #f4edea;
+
+
+
 }
+
+article {}
