@@ -23,10 +23,22 @@ section {
   padding: 0 50px;
   color: gray;
   background-color: #f4edea;
-  border: 10px solid #f4edea;
-
-
+  border: 10px solid #f4d1ea;
 
 }
 
-article {}
+article {
+  font-size: 1.5rem;
+}
+
+section h3 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+
+  article,
+  section h3 {
+    font-size: 1rem ;
+  }
+}
